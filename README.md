@@ -11,6 +11,26 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 . List and analyze content based on release years, countries, and durations.
 . Explore and categorize content based on specific criteria and keywords
 
-Dataset :
+## Dataset :
 **Dataset link:**[movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+
+## Schema 
+
+'''Sql
+CREATE TABLE Netflix 
+(
+  Show_id VARCHAR(7),
+  Content_Type VARCHAR(7),
+  Title VARCHAR(160),
+  Director VARCHAR(215),
+  Casts VARCHAR(1100),
+  Country VARCHAR(160),
+  Date 	VARCHAR(60),
+  Release_Year VARCHAR(15),
+  Rating VARCHAR(15),
+  Duration VARCHAR(20),
+  Genres VARCHAR(300),
+  Description VARCHAR(260)
+);
+'''
 
